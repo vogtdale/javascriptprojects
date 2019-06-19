@@ -1,0 +1,33 @@
+.clock {
+	border: 1px solid black;
+	height: 500px;
+	width:500px;
+	border-radius: 50%;
+	margin: 0 auto;
+	padding: 1%;
+	box-shadow: 1px 1px 10px 10px black;
+	display: flex;
+	align-items: middle;
+	justify-content: center;
+}
+.hand {
+	position: absolute;
+	transform-origin: center bottom;
+}
+.sec {
+	height:1px;
+	border-bottom: 240px solid red;
+	width: 5px;
+}
+.min {
+	height:1px;
+	border-bottom: 200px solid blue;
+	width: 8px;
+	top: 62px;
+}
+.hours {
+	height:1px;
+	border-bottom: 190px solid yellow;
+	width: 10px;
+	top: 73px;
+}
